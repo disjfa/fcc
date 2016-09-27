@@ -1,0 +1,23 @@
+{
+  "name": "fcc",
+  "homepage": "https://github.com/disjfa/fcc",
+  "authors": [
+    "disjfa <disjfa@disjfa.nl>"
+  ],
+  "description": "Free code camp examples",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0",
+    "jquery": "^3.1.1",
+    "tether": "^1.3.7",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
