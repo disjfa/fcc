@@ -3,7 +3,7 @@ $(function () {
 
     var data = $('#data');
 
-    $.get('://freegeoip.net/json/', function (result) {
+    $.get('//freegeoip.net/json/', function (result) {
         $('#location-form input[name="location"]').val(result.city);
         $('#location-form').trigger('submit');
     })
@@ -13,7 +13,7 @@ $(function () {
         var location = this.elements['location'].value;
         var units = this.elements['units'].value;
 
-        $.get('://api.openweathermap.org/data/2.5/weather?APPID=de2fc78f5109b4494d450fcf942fc04f&units=' + units + '&q=' + location, setupLocation);
+        $.get('//api.openweathermap.org/data/2.5/weather?APPID=de2fc78f5109b4494d450fcf942fc04f&units=' + units + '&q=' + location, setupLocation);
         return false;
     });
 
